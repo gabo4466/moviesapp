@@ -14,8 +14,20 @@ public class MoviesModel {
     @Column
     private String title;
 
+
     @Column
     private String description;
+
+    @Column
+    private String image;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public Long getId() {
         return id;
