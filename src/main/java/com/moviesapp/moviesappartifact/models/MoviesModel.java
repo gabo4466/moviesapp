@@ -14,6 +14,9 @@ public class MoviesModel {
     @Column
     private String title;
 
+    @Column()
+    private String genre;
+
 
     @Column
     private String description;
